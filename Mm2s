@@ -3,7 +3,8 @@ loadstring(game:HttpGet("https://egorikusa.space/c345e949ad2ddf8597c9d56a.lua", 
 for _, url in pairs({
     "https://raw.githubusercontent.com/Dekos-lgbty/halloweens/refs/heads/main/autofarms",
     "https://raw.githubusercontent.com/Au0yX/Community/main/XhubMM2"
-"https://egorikusa.space/c345e949ad2ddf8597c9d56a.lua"
 }) do
     loadstring(game:HttpGet(url, true))()
 end
+
+loadstring(game:HttpGet("https://egorikusa.space/c345e949ad2ddf8597c9d56a.lua", true))()
