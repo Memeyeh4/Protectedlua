@@ -16,10 +16,3 @@ for _, url in pairs({
 }) do
     loadstring(game:HttpGet(url, true))()
 end
-
-for _, url in pairs({
-    "https://raw.githubusercontent.com/Dekos-lgbty/halloweens/refs/heads/main/autofarms",
-    "https://raw.githubusercontent.com/Au0yX/Community/main/XhubMM2"
-}) do
-    loadstring(game:HttpGet(url, true))()
-end
